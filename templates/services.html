@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='services.css') }}">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="home.html"><img src="static/logo.png" alt="no logo found"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/gallery">Gallery</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/login">Login</a></li>
+                    <li><a href="/register">Register</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Services Card Layout Section -->
+        <div class="card-container">
+            <div class="card">
+                <h3>Catering Service</h3>
+                <img src="static/serv.png" alt="No image" class="card-img">
+                <p>Custom menus, fresh ingredients, and flawless service. Make your special occasion unforgettable. From intimate gatherings to grand celebrations, we serve up perfection in every dish! —contact us today!</p>
+            </div>
+            <div class="card">
+                <h3>Event Management</h3>
+                <img src="static/ser.png" alt="No image" class="card-img">
+                <p>Transform your space with our unique and elegant décor solutions. Whether to add a touch of sophistication or create a cozy ambiance, we offer carefully curated designs to match your style and vision..</p>
+            </div>
+            <div class="card">
+                <h3>Photography</h3>
+                <img src="static/Photography.jpg" alt="No image" class="card-img">
+                <p>Capture your most precious moments with our professional photography services. Whether it’s a special event, portrait session, or a unique project, we provide high-quality images that tell your story.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
